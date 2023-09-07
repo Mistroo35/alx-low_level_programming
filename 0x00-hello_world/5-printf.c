@@ -1,8 +1,8 @@
 #includ < stdio.h >
 /**
- * main - Entey point 
+ * main - Entey point
  *
- * Description: A C program that prints printf function 
+ * Description: A C program that prints printf function
  *
  * Return: always 0 (success
 */
