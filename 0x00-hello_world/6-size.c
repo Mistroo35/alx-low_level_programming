@@ -5,10 +5,10 @@
  *
  * Description: using sizof to print the size of various tybes.
  *
- * Return 0 (success)
+ * Return: always 0 (success)
 */
 
-int main(void) 
+int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n". sizeof(char));
 	printf("siza of an int: %lu byte(s)\n". sizeof(int));
