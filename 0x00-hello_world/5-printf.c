@@ -1,13 +1,19 @@
-#includ < stdio.h >
+/*
+ * File: 5-printf.c
+ * Auth: Brennan D Baraban
+ */
+
+#include <stdio.h>
+
 /**
- * main - Entey point
+ * main - Prints "with proper grammar, but the outcome is
+ *                a piece of art," followed by a new line.
  *
- * Description: A C program that prints printf function
- *
- * Return: always 0 (success)
-*/
+ * Return: Always 0.
+ */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
+
 	return (0);
 }
