@@ -5,9 +5,11 @@
 
 void reset_to_98(int *n);
 {
-	int number = 42
-		int *ptr = &number;
-	printf("Before function call: %d\n", *ptr);
-		printf("After function call: %d\n", *ptr);
+	*p = 98;
+	int n;
+	n = 402;
+	printf("n=%d\n", n);
+	int *p = &n;
+	printf("n=%d\n", *p);
 	return 0;
 }
