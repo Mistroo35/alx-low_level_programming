@@ -1,5 +1,7 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
+#ifndef MAIN_H
+#define main_H
+
+#include <unistd.h>
 
 
 int _putchar(char c);

@@ -1,15 +1,14 @@
 #include "man.h"
 
+/**
+ * reset_to_98 - function that takes a pointer to an int as parameter and
+ * updates the value it points to to 98.
+ *
+ * @n: This is the entry
+ *
+ */
 
-/***/
-
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
-	*p = 98;
-	int n;
-	n = 402;
-	printf("n=%d\n", n);
-	int *p = &n;
-	printf("n=%d\n", *p);
-	return 0;
+	*n = 98;
 }
