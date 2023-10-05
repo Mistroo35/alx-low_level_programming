@@ -1,34 +1,36 @@
-include "notrebloh.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
+
 /**
- * creat_array - will creat an arry with size c
+ * *create_array - createschars array,
  *
- * @size unsigned int tybe
  *
- * @c tybe of char
+ * @size: size of ceared array
  *
- * return a pinter to arry have been created
+ * @c:iniyilized char to c
+ *
+ * Return: pointer to the array (Success), NULL (Error)
  */
 char *create_array(unsigned int size, char c)
 {
-	char *s;
-	unsigned int i;
+	char *p;
+	unsigned int i = 0;
+
 	if (size == 0)
+		return (NULL);
+
+	p = (char *) malloc(sizeof(char) * size);
+
+	if (p == NULL)
+		return (0);
+
+	while (i < size)
 	{
-		return (NULL);
+		*(p + i) = c;
+		i++;
 	}
-	s = malloc((size)*sizeof(char));
-	if(s == NULL)
-{
-		return (NULL);
-}
-i = 0;
-while (i < size)
-{
-	s[i] = c;
-	i++;
-}
-s[i] = '\0';
-return (s);
+
+	*(p + i) = '\0';
+
+	return (p);
 }
